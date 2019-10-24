@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>canvas</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+        <link href="./style.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">  
+    </head>
+    <body>
+        <header>
+            <div class="header__content">
+                <div class="header__menu-header">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                    <h1>CodeJam - Pallete</h1>
+                </div>
+                <div class="header__settings">
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+            </div>
+        </header>
+        <body>
+            <div class="body__container">
+                <div class="body__instrument-panels">
+                    <div class="instrument-panel panel-1">
+                        <div class="instrument">
+                            <i class="fa fa-paint-brush" aria-hidden="true"></i>
+                            <p>Paint bucket</p>
+                        </div>
+                        <div class="instrument instrument-choose-color">
+                            <i class="fa fa-eyedropper" aria-hidden="true"></i>
+                            <p>Choose color</p>
+                        </div>
+                        <div class="instrument">
+                            <i class="fa fa-arrows" aria-hidden="true"></i>
+                            <p>Move</p>
+                        </div>
+                        <div class="instrument">
+                            <i class="fa fa-exchange" aria-hidden="true"></i>
+                            <p>Transform</p>
+                        </div>
+                    </div>
+                    <div class="instrument-panel panel-2">
+                        <div class="color">
+                            <div class="circle circle-current"></div>
+                            <p>Current color</p>
+                        </div>
+                        <div class="color prev-color">
+                            <div class="circle circle-prev"></div>
+                            <p>Prev color</p>
+                        </div>
+                        <div class="color">
+                            <div class="circle circle-red"></div>                            
+                            <p>red</p>
+                        </div>
+                        <div class="color">
+                            <div class="circle circle-blue"></div>
+                            <p>blue</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="canvas">
+                    <canvas id="canvas"></canvas>
+                </div>
+            </div>
+        </body>
+    </body>
+</html>
