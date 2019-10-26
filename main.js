@@ -1,3 +1,8 @@
+import * as matrix32 from './assets/data/32x32.json'; 
+import * as matrix4 from './assets/data/4x4.json'; 
+
+console.log(matrix32.default[0][1]);
+
 let file = document.querySelectorAll('.files-panel__file');
 let canvas = document.getElementById("canvas");
 let context = canvas.getContext("2d");
@@ -9,12 +14,13 @@ let context = canvas.getContext("2d");
             drawImage();
         }
         if(this.innerText === '4x4.json') {
-            let jsonData = [
+            /*let jsonData = [
                 ["00BCD4", "FFEB3B","FFEB3B","00BCD4"],
                 ["FFEB3B", "FFC107","FFC107","FFEB3B"],
                 ["FFEB3B", "FFC107","FFC107","FFEB3B"],
                 ["00BCD4", "FFEB3B","FFEB3B","00BCD4"]
-            ];
+            ];*/
+            let jsonData = matrix4.default; 
             drawJSON(jsonData);
         }
         if(this.innerText === '32x32.json') {
