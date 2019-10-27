@@ -116,6 +116,7 @@ body {
     height: 512px;
     border: 1px solid rgb(197, 197, 197);
     image-rendering: pixelated;
+    background: #e4e1e1;
 }
 
 .files-panel {
@@ -138,7 +139,7 @@ body {
     cursor: pointer;
 }
 .files-panel__file:hover {
-    background-color: #e6e6e6;
+    color: #504f4f;
 }
 .files-panel__file p {
     margin-left: 20%;
