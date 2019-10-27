@@ -1,1 +1,1 @@
-[Codejam-Canvas](https://github.com/ulyana18/codejam-canvas/tree/master/dist/index.html)
+[Codejam-Canvas](https://ulyana18.github.io/)
